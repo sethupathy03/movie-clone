@@ -1,11 +1,21 @@
 import { useState } from 'react'
 import './App.css'
-const name = "Sethupathy V"
+import Navbar from './components/Navbar'
+import Movie from './components/Movie'
+import Watchlist from './components/Watchlist'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 function App() {
   return (
     <> 
-      <h1 className="text-center font-bold color-purple-300">I am {name}, interested in web development.</h1>
-    
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Movie />} />
+          <Route path='/watchlist' element={<Watchlist />} />
+          
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
