@@ -1,0 +1,17 @@
+{
+    "lang" : [
+        {
+            "name":"Java", 
+            "image" : "/assets/java.png"
+        },
+        {
+            "name":"React", 
+            "image" : "/assets/react.png"
+        },
+        {
+            "name":"JavaScript", 
+            "image" : "/assets/js.png"
+        }
+    ]
+}
+  
