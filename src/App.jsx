@@ -27,7 +27,7 @@ function App() {
 
   return (
     <> 
-      <BrowserRouter>
+      <BrowserRouter basename="/movie-clone">
         <Navbar />
         <Routes>
           <Route path='/' element={<> <Banner /> <Movie watchlist={watchlist} handleAddtoWatchlist={handleAddtoWatchlist} handleRemoveFromWatchlist={handleRemoveFromWatchlist} /> </>} />
