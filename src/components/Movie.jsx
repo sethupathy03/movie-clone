@@ -36,4 +36,3 @@ const Movie = ({ handleAddtoWatchlist, handleRemoveFromWatchlist, watchlist }) =
 
 export default Movie
 
-// https://api.themoviedb.org/3/movie/popular?api_key=e3eceafabcaf6f95bec28c8e1f703eb2&language=en-US&page=1
