@@ -37,6 +37,12 @@ src/
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://sethupathy03.github.io/movie-clone/
+
+---
+
 ## 📬 Contact
 GitHub: https://github.com/sethupathy03
 Email: vsethupathy007@gmail.com
